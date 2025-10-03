@@ -49,27 +49,27 @@ A complete, production-ready real-time team collaboration dashboard built with m
 
 🛠 Tech Stack
 Frontend
-React 18 with TypeScript
-Material-UI (MUI) v5 for modern UI components
-React Query v4 for server state management
-Zotai for UI state management
-React Router v6 for navigation
-Socket.io Client for real-time communication
-Firebase Auth for authentication
-React Beautiful DnD for drag-and-drop
-Recharts for data visualization
-Cypress for E2E testing
+- React 18 with TypeScript
+- Material-UI (MUI) v5 for modern UI components
+- React Query v4 for server state management
+- Zotai for UI state management
+- React Router v6 for navigation
+- Socket.io Client for real-time communication
+- Firebase Auth for authentication
+- React Beautiful DnD for drag-and-drop
+- Recharts for data visualization
+- Cypress for E2E testing
 
 Backend
-NestJS with TypeScript
-PostgreSQL with TypeORM
-Redis with BullMQ for queues
-WebSocket Gateway for real-time features
-Elasticsearch for search functionality
-JWT Authentication with Firebase integration
-Swagger for API documentation
-Infrastructure
-Docker Compose for easy setup
-Role-Based Access Control
-Environment-based configuration
-Production-ready optimizations
+- NestJS with TypeScript
+- PostgreSQL with TypeORM
+- Redis with BullMQ for queues
+- WebSocket Gateway for real-time features
+- Elasticsearch for search functionality
+- JWT Authentication with Firebase integration
+- Swagger for API documentation
+- Infrastructure
+- Docker Compose for easy setup
+- Role-Based Access Control
+- Environment-based configuration
+- Production-ready optimizations
