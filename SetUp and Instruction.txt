@@ -1,0 +1,32 @@
+Setup Instructions:
+Clone the repository and install dependencies:
+
+bash
+cd backend && npm install
+cd ../frontend && npm install
+Set up environment variables (copy .env.example to .env)
+
+Start infrastructure services:
+
+bash
+cd backend && docker-compose up -d
+Run database migrations:
+
+bash
+npm run typeorm migration:run
+Start the backend:
+
+bash
+npm run start:dev
+Start the frontend:
+
+bash
+cd frontend && npm run dev
+Run tests:
+
+bash
+# Backend tests
+npm run test
+
+# Frontend E2E tests
+npm run test:e2e
