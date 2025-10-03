@@ -1,7 +1,9 @@
 Team Collaboration Dashboard
+
 A complete, production-ready real-time team collaboration dashboard built with modern technologies for seamless team coordination and project management.
 
 🚀 Features
+
 🔐 Authentication & Security
 - Firebase Authentication with JWT token integration
 - Role-Based Access Control (RBAC) with three levels:
@@ -71,36 +73,3 @@ Docker Compose for easy setup
 Role-Based Access Control
 Environment-based configuration
 Production-ready optimizations
-
-📁 Project Structure
-team-collaboration-dashboard/
-├── frontend/
-│   ├── src/
-│   │   ├── components/
-│   │   │   ├── Layout/          # Dashboard layout, navigation
-│   │   │   ├── Tasks/           # Task board, cards, forms
-│   │   │   ├── Chat/            # Chat components, messages
-│   │   │   ├── Analytics/       # Charts and reports
-│   │   │   └── Common/          # Shared components
-│   │   ├── pages/               # Route components
-│   │   ├── store/               # Zotai state atoms
-│   │   ├── services/            # API calls and services
-│   │   ├── hooks/               # Custom React hooks
-│   │   ├── types/               # TypeScript interfaces
-│   │   └── utils/               # Helper functions
-│   ├── cypress/                 # E2E tests
-│   └── package.json
-├── backend/
-│   ├── src/
-│   │   ├── auth/                # JWT, Firebase auth
-│   │   ├── users/               # User management
-│   │   ├── tasks/               # Task CRUD operations
-│   │   ├── messages/            # Chat system
-│   │   ├── analytics/           # Reporting and metrics
-│   │   ├── websocket/           # Real-time gateway
-│   │   └── common/              # Guards, decorators, utilities
-│   ├── docker-compose.yml       # Database services
-│   └── package.json
-└── README.md
-Firebase Project (for authentication)
-
